@@ -1,0 +1,16 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "ankittyagi_3dagDW",
+  "key": "Kqx6wFpszysesyrEFqsB",
+
+  "capabilities": {
+    "build": "jbehave-browserstack",
+    "name": "local_test",
+    "browserstack.debug": true,
+    "browserstack.local": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
