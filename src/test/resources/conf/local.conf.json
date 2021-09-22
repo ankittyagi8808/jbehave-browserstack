@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "ankittyagi_3dagDW",
-  "key": "Kqx6wFpszysesyrEFqsB",
+  "user": "",
+  "key": "",
 
   "capabilities": {
     "build": "jbehave-browserstack",
