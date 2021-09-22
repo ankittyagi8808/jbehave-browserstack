@@ -80,7 +80,7 @@ public class BrowserStackJBehaveRunner {
                 capabilities.setCapability(pair.getKey().toString(), pair.getValue().toString());
             }
         }
-
+        capabilities.setCapability("build",System.getenv("BROWSERSTACK_BUILD_NAME"));
         String username = System.getenv("BROWSERSTACK_USERNAME");
         if(username == null) {
             username = (String) config.get("user");
